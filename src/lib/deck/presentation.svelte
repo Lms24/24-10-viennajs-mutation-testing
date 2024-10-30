@@ -276,5 +276,25 @@
 </Slide>
 
 <Slide>
-  <h3>Thanks!</h3>
+  <div class="flex flex-col w-full justify-between items-center gap-16">
+    <h3>Thanks!</h3>
+    <div class="flex flex-row gap-20">
+      <div class="flex flex-col">
+        <img src="/blog-link.png" class="w-64" alt="QR Code to Blog Post" />
+        <p>
+          <a href="https://sentry.engineering/blog/js-mutation-testing-our-sdks"
+            >Blog Post</a
+          >
+        </p>
+      </div>
+      <div class="flex flex-col mb-20">
+        <img src="/slides-link.png" class="w-64" alt="QR Code to Slide Deck" />
+        <p>
+          <a href="https://github.com/Lms24/24-10-viennajs-mutation-testing"
+            >Slide Deck</a
+          >
+        </p>
+      </div>
+    </div>
+  </div>
 </Slide>
