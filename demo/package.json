@@ -6,7 +6,8 @@
   "scripts": {
     "test": "vitest run --coverage",
     "test:mutation": "stryker run",
-    "report": "http-server -o /reports/mutation/mutation.html"
+    "report": "http-server -o /reports/mutation/mutation.html",
+    "clean": "rm -rf .stryker-tmp && git reset --hard"
   },
   "author": "",
   "license": "ISC",
