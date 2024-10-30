@@ -1,6 +1,6 @@
-# Building an Error and Performance Monitoring SDK for SvelteKit
+# Mutation Testing
 
-Slides for my talk at the January 2023 Svienna Meetup
+Slides for my talk at the Oct 2024 ViennaJS Meetup
 
 Created with:
 - [`reveal.js`](https://revealjs.com/)

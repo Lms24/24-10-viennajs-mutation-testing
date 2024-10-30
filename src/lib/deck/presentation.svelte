@@ -1,7 +1,6 @@
 <script lang="ts">
   import Code from "./code.svelte";
   import Slide from "./slide.svelte";
-  import Slides from "./slides.svelte";
 </script>
 
 <Slide>
@@ -14,7 +13,7 @@
       </p>
 
       <div class="flex flex-col gap-2 items-start">
-        <p>I like</p>
+        <p>About me:</p>
         <ul>
           <li>Aviation ✈️</li>
           <li>Archery 🏹</li>
@@ -39,18 +38,9 @@
   <div class="flex flex-col w-full justify-between items-center">
     <div class="flex flex-col items-center gap-4">
       <h3>Mutation Testing</h3>
-      <p>"Testing your tests"</p>
+      <p>"How to test your tests"</p>
     </div>
   </div>
-</Slide>
-
-<Slide>
-  <h3>Why give this talk?</h3>
-  <ul>
-    <li>MT is cool</li>
-    <li>but rather unknown</li>
-    <li>I want to share my experience</li>
-  </ul>
 </Slide>
 
 <Slide>
@@ -58,10 +48,7 @@
     <h3>What We're gonna talk about:</h3>
 
     <ol>
-      <li>
-        Intro to mutation testing
-        <ul><li>Why coverage is lying to us</li></ul>
-      </li>
+      <li>Intro to mutation testing</li>
       <li>MT in JavaScript (live demo 🤞)</li>
       <li>MT at Sentry</li>
     </ol>
@@ -69,7 +56,7 @@
 >
 
 <Slide>
-  <p>We all want to know how good we test our code</p>
+  <p>We all want to know how good we test our code.</p>
   <p>But how?</p>
 </Slide>
 
