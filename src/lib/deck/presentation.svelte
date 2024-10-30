@@ -237,9 +237,9 @@
 <Slide>
   <h3>We work in a monorepo</h3>
   <ul>
-    <li><code>@sentry/core</code></li>
-    <li><code>@sentry/browser</code></li>
     <li><code>@sentry/react</code></li>
+    <li><code>@sentry/browser</code></li>
+    <li><code>@sentry/core</code></li>
     <li>...</li>
   </ul>
   <p>➡️ Tests in individual packages and across packages</p>
